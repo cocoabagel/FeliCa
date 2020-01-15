@@ -58,8 +58,7 @@ extension Felica: NFCTagReaderSessionDelegate {
         firstly {
             connectFeliCaTag(session: session, detect: tag)
         }.then { tag -> Promise<NFCFeliCaTag> in
-            let blockData = [Data([0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00])] // rc value
-            return self.writeWithoutEncryption(feliCaTag: tag, blockData: blockData)
+            self.writeWithoutEncryption(feliCaTag: tag)
         }.then { tag -> Promise<[Data]> in
             self.readWithoutEncryption(feliCaTag: tag)
         }.done { dataList in
@@ -112,11 +111,12 @@ extension Felica: NFCTagReaderSessionDelegate {
         }
     }
     
-    private func writeWithoutEncryption(feliCaTag: NFCFeliCaTag, blockData: [Data]) -> Promise<NFCFeliCaTag> {
+    private func writeWithoutEncryption(feliCaTag: NFCFeliCaTag) -> Promise<NFCFeliCaTag> {
         return Promise { seal in
             let serviceCodeList = [Data([0x09, 0x00])] // Read,Write
             let blockList = [Data([0x80, 0x80])] // RC
-            
+            let blockData = [Data([0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00])] // RC values
+
             feliCaTag.writeWithoutEncryption(serviceCodeList: serviceCodeList, blockList: blockList, blockData: blockData) { (status1, status2, error) in
                 
                 guard error == nil, status1 == 0, status2 == 0 else {
