@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051A8B4B23CEB70A00A4EC4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051A8B4A23CEB70A00A4EC4D /* AppDelegate.swift */; };
+		051A8B4D23CEB70A00A4EC4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051A8B4C23CEB70A00A4EC4D /* SceneDelegate.swift */; };
+		051A8B4F23CEB70A00A4EC4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051A8B4E23CEB70A00A4EC4D /* ViewController.swift */; };
+		051A8B5223CEB70A00A4EC4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051A8B5023CEB70A00A4EC4D /* Main.storyboard */; };
+		051A8B5423CEB70E00A4EC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051A8B5323CEB70E00A4EC4D /* Assets.xcassets */; };
+		051A8B5723CEB70E00A4EC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051A8B5523CEB70E00A4EC4D /* LaunchScreen.storyboard */; };
+		051A8B5F23CEB7D900A4EC4D /* FeliCa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051A8B5E23CEB7D900A4EC4D /* FeliCa.swift */; };
+		5D9E4989954BA3C5ED529966 /* Pods_FeliCa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E2A1EEC97BF8C369079B0 /* Pods_FeliCa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		051A8B4723CEB70A00A4EC4D /* FeliCa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeliCa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		051A8B4A23CEB70A00A4EC4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		051A8B4C23CEB70A00A4EC4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		051A8B4E23CEB70A00A4EC4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		051A8B5123CEB70A00A4EC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		051A8B5323CEB70E00A4EC4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		051A8B5623CEB70E00A4EC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		051A8B5823CEB70E00A4EC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051A8B5E23CEB7D900A4EC4D /* FeliCa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeliCa.swift; sourceTree = "<group>"; };
+		051A8B6023CEC00400A4EC4D /* FeliCaDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FeliCaDebug.entitlements; sourceTree = "<group>"; };
+		22D6A5FFF213D62FF77CEAB7 /* Pods-FeliCa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeliCa.release.xcconfig"; path = "Target Support Files/Pods-FeliCa/Pods-FeliCa.release.xcconfig"; sourceTree = "<group>"; };
+		6DAB440BB64778CC0D2DD71E /* Pods-FeliCa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeliCa.debug.xcconfig"; path = "Target Support Files/Pods-FeliCa/Pods-FeliCa.debug.xcconfig"; sourceTree = "<group>"; };
+		F57E2A1EEC97BF8C369079B0 /* Pods_FeliCa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeliCa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051A8B4423CEB70A00A4EC4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9E4989954BA3C5ED529966 /* Pods_FeliCa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051A8B3E23CEB70A00A4EC4D = {
+			isa = PBXGroup;
+			children = (
+				051A8B4923CEB70A00A4EC4D /* FeliCa */,
+				051A8B4823CEB70A00A4EC4D /* Products */,
+				F8BBD8863EAAE9E402AB3C2B /* Pods */,
+				5CF96297BE80B9FD20AFDD5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		051A8B4823CEB70A00A4EC4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051A8B4723CEB70A00A4EC4D /* FeliCa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		051A8B4923CEB70A00A4EC4D /* FeliCa */ = {
+			isa = PBXGroup;
+			children = (
+				051A8B6023CEC00400A4EC4D /* FeliCaDebug.entitlements */,
+				051A8B4A23CEB70A00A4EC4D /* AppDelegate.swift */,
+				051A8B4C23CEB70A00A4EC4D /* SceneDelegate.swift */,
+				051A8B4E23CEB70A00A4EC4D /* ViewController.swift */,
+				051A8B5E23CEB7D900A4EC4D /* FeliCa.swift */,
+				051A8B5023CEB70A00A4EC4D /* Main.storyboard */,
+				051A8B5323CEB70E00A4EC4D /* Assets.xcassets */,
+				051A8B5523CEB70E00A4EC4D /* LaunchScreen.storyboard */,
+				051A8B5823CEB70E00A4EC4D /* Info.plist */,
+			);
+			path = FeliCa;
+			sourceTree = "<group>";
+		};
+		5CF96297BE80B9FD20AFDD5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F57E2A1EEC97BF8C369079B0 /* Pods_FeliCa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8BBD8863EAAE9E402AB3C2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DAB440BB64778CC0D2DD71E /* Pods-FeliCa.debug.xcconfig */,
+				22D6A5FFF213D62FF77CEAB7 /* Pods-FeliCa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		051A8B4623CEB70A00A4EC4D /* FeliCa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051A8B5B23CEB70E00A4EC4D /* Build configuration list for PBXNativeTarget "FeliCa" */;
+			buildPhases = (
+				7D511B6A30779DC15D82B770 /* [CP] Check Pods Manifest.lock */,
+				051A8B4323CEB70A00A4EC4D /* Sources */,
+				051A8B4423CEB70A00A4EC4D /* Frameworks */,
+				051A8B4523CEB70A00A4EC4D /* Resources */,
+				A7E15490506D95C1A992BA68 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeliCa;
+			productName = FeliCa;
+			productReference = 051A8B4723CEB70A00A4EC4D /* FeliCa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		051A8B3F23CEB70A00A4EC4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = COCOABAGEL;
+				TargetAttributes = {
+					051A8B4623CEB70A00A4EC4D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 051A8B4223CEB70A00A4EC4D /* Build configuration list for PBXProject "FeliCa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 051A8B3E23CEB70A00A4EC4D;
+			productRefGroup = 051A8B4823CEB70A00A4EC4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				051A8B4623CEB70A00A4EC4D /* FeliCa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		051A8B4523CEB70A00A4EC4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051A8B5723CEB70E00A4EC4D /* LaunchScreen.storyboard in Resources */,
+				051A8B5423CEB70E00A4EC4D /* Assets.xcassets in Resources */,
+				051A8B5223CEB70A00A4EC4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D511B6A30779DC15D82B770 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeliCa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E15490506D95C1A992BA68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FeliCa/Pods-FeliCa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FeliCa/Pods-FeliCa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FeliCa/Pods-FeliCa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		051A8B4323CEB70A00A4EC4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051A8B4F23CEB70A00A4EC4D /* ViewController.swift in Sources */,
+				051A8B4B23CEB70A00A4EC4D /* AppDelegate.swift in Sources */,
+				051A8B4D23CEB70A00A4EC4D /* SceneDelegate.swift in Sources */,
+				051A8B5F23CEB7D900A4EC4D /* FeliCa.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		051A8B5023CEB70A00A4EC4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051A8B5123CEB70A00A4EC4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		051A8B5523CEB70E00A4EC4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051A8B5623CEB70E00A4EC4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		051A8B5923CEB70E00A4EC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		051A8B5A23CEB70E00A4EC4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		051A8B5C23CEB70E00A4EC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DAB440BB64778CC0D2DD71E /* Pods-FeliCa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FeliCa/FeliCaDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C94AX2R986;
+				INFOPLIST_FILE = FeliCa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoabagel.FeliCa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		051A8B5D23CEB70E00A4EC4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D6A5FFF213D62FF77CEAB7 /* Pods-FeliCa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C94AX2R986;
+				INFOPLIST_FILE = FeliCa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoabagel.FeliCa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051A8B4223CEB70A00A4EC4D /* Build configuration list for PBXProject "FeliCa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051A8B5923CEB70E00A4EC4D /* Debug */,
+				051A8B5A23CEB70E00A4EC4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051A8B5B23CEB70E00A4EC4D /* Build configuration list for PBXNativeTarget "FeliCa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051A8B5C23CEB70E00A4EC4D /* Debug */,
+				051A8B5D23CEB70E00A4EC4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 051A8B3F23CEB70A00A4EC4D /* Project object */;
+}
