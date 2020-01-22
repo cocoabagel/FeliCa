@@ -14,6 +14,7 @@
 		051A8B5423CEB70E00A4EC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051A8B5323CEB70E00A4EC4D /* Assets.xcassets */; };
 		051A8B5723CEB70E00A4EC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051A8B5523CEB70E00A4EC4D /* LaunchScreen.storyboard */; };
 		051A8B5F23CEB7D900A4EC4D /* FeliCa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051A8B5E23CEB7D900A4EC4D /* FeliCa.swift */; };
+		054247CD23D8197F00A19C9A /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054247CC23D8197F00A19C9A /* String+Ext.swift */; };
 		5D9E4989954BA3C5ED529966 /* Pods_FeliCa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E2A1EEC97BF8C369079B0 /* Pods_FeliCa.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		051A8B5823CEB70E00A4EC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		051A8B5E23CEB7D900A4EC4D /* FeliCa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeliCa.swift; sourceTree = "<group>"; };
 		051A8B6023CEC00400A4EC4D /* FeliCaDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FeliCaDebug.entitlements; sourceTree = "<group>"; };
+		054247CC23D8197F00A19C9A /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		22D6A5FFF213D62FF77CEAB7 /* Pods-FeliCa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeliCa.release.xcconfig"; path = "Target Support Files/Pods-FeliCa/Pods-FeliCa.release.xcconfig"; sourceTree = "<group>"; };
 		6DAB440BB64778CC0D2DD71E /* Pods-FeliCa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeliCa.debug.xcconfig"; path = "Target Support Files/Pods-FeliCa/Pods-FeliCa.debug.xcconfig"; sourceTree = "<group>"; };
 		F57E2A1EEC97BF8C369079B0 /* Pods_FeliCa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeliCa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,7 @@
 				051A8B4C23CEB70A00A4EC4D /* SceneDelegate.swift */,
 				051A8B4E23CEB70A00A4EC4D /* ViewController.swift */,
 				051A8B5E23CEB7D900A4EC4D /* FeliCa.swift */,
+				054247CC23D8197F00A19C9A /* String+Ext.swift */,
 				051A8B5023CEB70A00A4EC4D /* Main.storyboard */,
 				051A8B5323CEB70E00A4EC4D /* Assets.xcassets */,
 				051A8B5523CEB70E00A4EC4D /* LaunchScreen.storyboard */,
@@ -214,6 +217,7 @@
 				051A8B4F23CEB70A00A4EC4D /* ViewController.swift in Sources */,
 				051A8B4B23CEB70A00A4EC4D /* AppDelegate.swift in Sources */,
 				051A8B4D23CEB70A00A4EC4D /* SceneDelegate.swift in Sources */,
+				054247CD23D8197F00A19C9A /* String+Ext.swift in Sources */,
 				051A8B5F23CEB7D900A4EC4D /* FeliCa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C94AX2R986;
 				INFOPLIST_FILE = FeliCa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,6 +387,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C94AX2R986;
 				INFOPLIST_FILE = FeliCa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
