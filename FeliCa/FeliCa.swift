@@ -41,7 +41,6 @@ extension Felica: NFCTagReaderSessionDelegate {
     }
     
     public func tagReaderSession(_ session: NFCTagReaderSession, didInvalidateWithError error: Error) {
-        didFailWithError?(FeliCaError.sessionInvalidated)
     }
     
     public func tagReaderSession(_ session: NFCTagReaderSession, didDetect tags: [NFCTag]) {
@@ -64,11 +63,9 @@ extension Felica: NFCTagReaderSessionDelegate {
         }.done { dataList in
             let id = dataList[0].map { String(format: "%.2hhx", $0) }.joined()
             print("ID: \(id)")
-            let ckv = dataList[1][0...1].reduce(0) { v, byte in
-                return v << 8 | Int(byte)
-            }
+            let ckv = dataList[1][0...1].map { String(format: "%.2hhx", $0) }.joined()
             print("CKV: \(ckv)")
-            let maca = dataList[2].map { String(format: "%.2hhx", $0) }.joined()
+            let maca = dataList[2][0...7].map { String(format: "%.2hhx", $0) }.joined()
             print("MAC_A: \(maca)")
             session.alertMessage = "ID: \(id)\nCKV: \(ckv)\nMAC_A: \(maca)"
             session.invalidate()
@@ -116,7 +113,9 @@ extension Felica: NFCTagReaderSessionDelegate {
             let serviceCodeList = [Data([0x09, 0x00])] // Read,Write
             let blockList = [Data([0x80, 0x80])] // RC
             let blockData = [Data([0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00])] // RC values
-
+            // let blockData = [Data("53ea15d7235c98b5c426b49ba931f11a".toBytes()!)] // string to bytes
+            let v = blockData[0].map { String(format: "%.2hhx", $0) }.joined()
+            print(v)
             feliCaTag.writeWithoutEncryption(serviceCodeList: serviceCodeList, blockList: blockList, blockData: blockData) { (status1, status2, error) in
                 
                 guard error == nil, status1 == 0, status2 == 0 else {
